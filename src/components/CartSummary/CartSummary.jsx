@@ -1,11 +1,8 @@
-// import toast from 'react-hot-toast';
-import { useNavigate } from 'react-router-dom';
 import { useCart } from '../../contexts/CartContext';
 import './CartSummary.css';
-// import favicon from '../../assets/favicon.png'
 
 const CartSummary = () => {
-    const { cartState: {cartItems}, handleOrderedItems, clearCart } = useCart();
+    const { cartState: {cartItems} } = useCart();
     
     const getDiscountedPrice = (product) => {
         return product.reduce(
@@ -24,65 +21,6 @@ const CartSummary = () => {
 
     const totalValue = getCartTotalValue(cartItems);
     const discountedPrice = getDiscountedPrice(cartItems).toFixed(2);
-    const finalPrice = (totalValue - discountedPrice).toFixed(2);
-    const navigate = useNavigate();
-    
-    // // Payment Integration
-    // const loadScript = async (url) => {
-    //     return new Promise((resolve) => {
-    //         const script = document.createElement('script');
-    //         script.src = url;
-
-    //         script.onload = () => {
-    //             resolve(true);
-    //         };
-
-    //         script.onerror = () => {
-    //             resolve(false);
-    //         };
-    //         document.body.appendChild(script);
-    //     });
-    // };
-
-    // const displayRazorpayModal = async () => {
-    //     const res = await loadScript('https://checkout.razorpay.com/v1/checkout.js');
-
-    //     if (!res) {
-    //         toast.error('Something went wrong.');
-    //         return;
-    //     }
-    //     const options = {
-    //         key: process.env.REACT_APP_RAZORPAY_TOKEN,
-    //         amount: finalPrice * 100,
-    //         currency: 'INR',
-    //         name: 'TI Ecom Store',
-    //         description: 'Thanks for shopping with us!',
-    //         image: favicon,
-    //         handler: function (response) {
-    //             // Getting the paymentId and creating a user order id.
-    //             // const paymentId = response.razorpay_payment_id;
-    //             // const orderId = uuid();
-    //             clearCart();
-    //             navigate('/cartsummary');
-    //         },
-    //         theme: {
-    //             color: '#FFC400',
-    //         },
-    //         prefill: {
-    //             name: 'John Smith',
-    //             email: 'john@gmail.com',
-    //             contact: '1234567891',
-    //         },
-    //     };
-    //     const paymentObject = new window.Razorpay(options);
-    //     paymentObject.open();
-    // };
-
-    // const handlePayment = () => {
-    //     handleOrderedItems();
-    //     console.log(cartItems.orderedItems)
-    //     displayRazorpayModal();
-    // };
 
     return (
         <div class="cart-summary">

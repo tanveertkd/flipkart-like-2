@@ -18,18 +18,23 @@ const Cart = () => {
                         {cartItems?.map((product) => (
                             <CartItemCard product={product} key={product?.id} />
                         ))}
-                        <CartSummary />
                     </div>
                 ) : (
                     <div>Your cart is empty! </div>
                 )}
-
+                <div className="summary-container">
+                    <CartSummary />
+                </div>
+                
+            </div>
+            {savedForLater?.length > 0 && (
                 <div className="save-for-later">
                     <h3>Items in later</h3>
-                    {savedForLater?.length > 0 &&
-                        savedForLater?.map((product) => <SaveForLaterCard product={product} />)}
+                    {savedForLater?.map((product) => (
+                        <SaveForLaterCard product={product} />
+                    ))}
                 </div>
-            </div>
+            )}
         </div>
     );
 };

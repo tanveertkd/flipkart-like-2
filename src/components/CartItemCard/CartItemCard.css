@@ -5,6 +5,7 @@
     border-radius: 0.2rem;
     box-shadow: 5px 5px 5px var(--color-hover-light-grey);
     margin: auto 5rem 1rem auto;
+    width: 800px
 }
 
 .cart-asset-container {

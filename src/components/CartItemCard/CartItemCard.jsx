@@ -25,6 +25,7 @@ const CartItemCard = ({ product }) => {
                             <div className="item-qty">
                                 <button
                                     className="item-qty-btn item-qty-minus"
+                                    disabled={qty < 1}
                                     onClick={() =>
                                         cartDispatch({ type: 'DECREMENT', payload: { _id } })
                                     }
