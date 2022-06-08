@@ -22,10 +22,11 @@ const Cart = () => {
                 ) : (
                     <div>Your cart is empty! </div>
                 )}
-                <div className="summary-container">
-                    <CartSummary />
-                </div>
-                
+                {cartItems?.length > 0 && (
+                    <div className="summary-container">
+                        <CartSummary />
+                    </div>
+                )}
             </div>
             {savedForLater?.length > 0 && (
                 <div className="save-for-later">
