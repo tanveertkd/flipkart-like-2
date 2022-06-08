@@ -1,0 +1,21 @@
+.product-page-container {
+    display: flex;
+    position: relative;
+}
+
+.filter-section {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
+
+.products-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,16 @@
+.product-card {
+    margin: 0.5rem;
+}
+
+.card-asset-container {
+    background-color: var(--color-offline);
+    padding: 0;
+    width: 100%;
+}
+
+.card-image {
+    padding: 0;
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}

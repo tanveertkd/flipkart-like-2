@@ -1,0 +1,146 @@
+[
+  {
+    "_id": 1,
+    "title": "Solid Men Round Neck White T-Shirt",
+    "price": 999,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/kohigsw0/t-shirt/x/3/g/m-gu7491-adidas-original-imag2xsw6kyagzu4.jpeg?q=50",
+    "rating": 4,
+    "discount": 55,
+    "size": "l",
+    "brand": "adidas",
+    "gender": "m"
+  },
+  {
+    "_id": 2,
+    "title": "Striped Men Round Neck T-Shirt",
+    "price": 999,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/jvqzo280/t-shirt/j/p/f/m-fj9216-adidas-original-imafgkj5ktfuzzhg.jpeg?q=50",
+    "rating": 4,
+    "discount": 30,
+    "size": "xl",
+    "brand": "adidas",
+    "gender": "m"
+  },
+  {
+    "_id": 3,
+    "title": "Cotton Heel & Toe Cushion Socks",
+    "price": 499,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/kw3v0cw0/sock/u/o/d/free-3-ad-9134-adidas-original-imag8uq6h4y7hhar.jpeg?q=50",
+    "rating": 4,
+    "discount": 29,
+    "size": "s",
+    "brand": "adidas",
+    "gender": "f"
+  },
+  {
+    "_id": 4,
+    "title": "Solid Men Polo Neck White T-Shirt",
+    "price": 899,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/k1118cw0/t-shirt/h/p/z/xl-askporgfp82490-allen-solly-original-imafkztf2tt2uucx.jpeg?q=50",
+    "rating": 2,
+    "discount": 40,
+    "size": "s",
+    "brand": "allen_solly",
+    "gender": "m"
+  },
+  {
+    "_id": 5,
+    "title": "Solid Men Polo Neck Black T-Shirt",
+    "price": 899,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/k0r15e80/t-shirt/p/e/k/m-askporgfj72665-allen-solly-original-imafkh3zfzgjuxch.jpeg?q=50",
+    "rating": 4,
+    "discount": 40,
+    "size": "m",
+    "brand": "allen_solly",
+    "gender": "m"
+  },
+  {
+    "_id": 6,
+    "title": "Skinny Men Black Jeans",
+    "price": 2799,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/l3lx8cw0/jean/q/x/7/32-65504-0559-levi-s-original-imagezuju8pgjayj.jpeg?q=50",
+    "rating": 3.5,
+    "discount": 54,
+    "size": "l",
+    "brand": "levis",
+    "gender": "f"
+  },
+  {
+    "_id": 7,
+    "title": "Men Cut Away Collar Formal Shirt",
+    "price": 1899,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/kx50gi80/shirt/m/k/u/-original-imag9nw44jzhamy3.jpeg?q=50",
+    "rating": 4,
+    "discount": 65,
+    "size": "xl",
+    "brand": "arrow",
+    "gender": "f"
+  },
+  {
+    "_id": 8,
+    "title": "Solid Men Khaki Chino Shorts",
+    "price": 1799,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/ktn9pjk0/short/b/p/s/32-asacost0008-arrow-sport-original-imag6y4jxfhbpq8c.jpeg?q=50",
+    "rating": 5,
+    "discount": 67,
+    "size": "xl",
+    "brand": "arrow_sport",
+    "gender": "m"
+  },
+  {
+    "_id": 9,
+    "title": "Solid Men Polo Neck Blue T-Shirt",
+    "price": 1695,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/knyxqq80/t-shirt/k/5/a/m-et-pr-limbo-aqua-blue-blackberrys-original-imag2j6hvjv4w5qk.jpeg?q=50",
+    "rating": 5,
+    "discount": 50,
+    "size": "m",
+    "brand": "blackberrys",
+    "gender": "m"
+  },
+  {
+    "_id": 10,
+    "title": "Men Slim Fit Checkered Casual Shirt",
+    "price": 1999,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/kxhvf680/shirt/b/b/q/40-asacsh4228-arrow-sport-original-imag9xvh2tr66dfx.jpeg?q=50",
+    "rating": 3,
+    "discount": 60,
+    "size": "l",
+    "brand": "blackberrys",
+    "gender": "m"
+  },
+  {
+    "_id": 11,
+    "title": "Full Sleeve Self Design Men Casual Jacket",
+    "price": 4995,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/kiqbma80/jacket/j/s/t/40-ez-ww-zenith-maroon-blackberrys-original-imafyfdtes3hedvh.jpeg?q=50",
+    "rating": 3,
+    "discount": 55,
+    "size": "l",
+    "brand": "blackberrys",
+    "gender": "f"
+  },
+  {
+    "_id": 12,
+    "title": "Regular Fit Men Grey Cotton Blend Trousers",
+    "price": 2195,
+    "asset":
+      "https://rukminim1.flixcart.com/image/880/1056/kqidx8w0/trouser/c/t/z/40-ek-ella-grey-blackberrys-original-imag4g3m6nbqg5jc.jpeg?q=50",
+    "rating": 4,
+    "discount": 5,
+    "size": "m",
+    "brand": "blackberrys",
+    "gender": "m"
+  }
+]

@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+  }
+  
+  .nav-ul {
+    list-style-type: none;
+  }
+  
+  .nav-ul-right {
+    display: flex;
+  }
+  
+  .list-item {
+    padding: 0.25rem 0.5rem;
+  }
+  

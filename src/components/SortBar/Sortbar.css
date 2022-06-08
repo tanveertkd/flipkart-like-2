@@ -1,0 +1,14 @@
+.sort-bar {
+    display: flex;
+}
+
+.sort_item {
+    text-decoration: underline;
+    margin: 00.5rem;
+    cursor: pointer;
+}
+
+.sort-heading {
+    margin: 00.5rem;
+    text-decoration: none;
+}
